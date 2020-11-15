@@ -1,0 +1,173 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+
+}
+.body-back{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caraousel-size{
+    margin-top: 10%;
+    float: right;
+
+}
+.Home-para{
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+.para-border{
+    margin-right: 50%;
+    border-top: 2px solid white;
+
+}
+
+/*  */
+.login-box{
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-right: 40%;
+    background-color: rgba(219, 215, 215, 0.753);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.425);
+}
+
+/* .login-box form{
+    margin: 20% 5% 10% 15%;
+} */
+
+.login-box header{
+    font-weight: 600;
+    font-size: 200%;
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.formcont{
+    margin-left: 20%;
+}
+
+/* strenght meter */
+form .indicator{
+    
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;  
+    margin-left: 15%;
+    margin-right: 20%;  
+}
+
+form .indicator span{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 5px;
+    position: relative;
+}
+
+form .indicator span.medium{
+    margin: 0 3px;    
+}
+form .indicator span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5;
+}
+form .indicator span.active.weak::before{
+    background-color: #ca2331;
+}
+form .indicator span.active.medium::before{
+    background-color: orange;
+}
+form .indicator span.active.strong::before{
+    background-color: #15a852;
+}
+form .text{
+    margin-left: 20%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -10px;    
+}
+form .text.weak{
+    color: #ca2331;
+}
+form .text.medium{
+    color: orange;
+}
+form .text.strong{
+    color:  #15a852;
+}
+
+/* districts */
+
+
+.body1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.firstpgh12{
+    margin-left: 100px;
+    font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+    color:white;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+.container{
+    /* border: 2px white solid ; */
+    /* margin-top: 1%; */
+    margin-left:5%;    
+}
+
+.pbox{
+    border: 2px white solid; 
+    width: 280px;
+    height: 250px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+/* new */
+
+.margboot{
+    width: 1360x ;
+    height: 500px ;
+    object-fit: cover;
+    
+}
+.imgfit{
+    width: 1360px;
+    height: 500px;
+}
+.disthigh a{
+    text-decoration: none;
+}
+.extra{
+    width: 1400px;
+
+}
