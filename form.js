@@ -6,7 +6,7 @@ function validation(){
 
     var regexpN =/^([a-zA-Z]+)$/;
     var regexpP =/^([0-9]{3,3})([\-. ]{1,1})?([0-9]{3,3})([\-. ]{1,1})?([0-9]{4,4})$/;
-    var regexpE =/^([a-zA-Z0-9\.-]+)@([A-Za-z0-9]+).([a-z]{2,3})(.[a-z]{2,3})?$/;
+    var regexpE =/^([a-zA-Z0-9\.-]+)@([A-Za-z0-9]+)\.([a-z]{2,3})(.[a-z]{2,3})?$/;
     valemail();
     valname();
     valphone();
@@ -54,7 +54,7 @@ function valphone(){
 function valemail(){
     var email = document.getElementById("email");
 
-    var regexpE =/^([a-zA-Z0-9\.-]+)@([A-Za-z0-9]+).([a-z]{2,3})(.[a-z]{2,3})?$/;
+    var regexpE =/^([a-zA-Z0-9\.-]+)@([A-Za-z0-9]+)\.([a-z]{2,3})(.[a-z]{2,3})?$/;
 
     if(regexpE.test(email.value)&&email.value!=''){
             email.style.border = "2px solid black";            
